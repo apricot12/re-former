@@ -1,0 +1,14 @@
+<%= form_with model: @user do |form|%>
+    <%= form.label :username, "Username: "%>
+    <%= form.text_field :username, placeholder: "Username" %><br>
+    <%= form.label :email, "E-mail: "%>
+    <%= form.text_field :email, placeholder: "email@example.com" %><br>
+    <%= form.label :password, "Password: "%>
+    <%= form.password_field :password, placeholder: "password" %>
+    <%= form.submit "Submit"%>
+    <% if @user.errors.any? %>
+        <div id="error_display">
+            <h2><%= pluralize(@user.errors.count, "error") %> Could not save post: </h2>
+        </div>
+    <% end %>
+<% end %>
