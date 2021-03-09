@@ -1,24 +1,54 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Rails Forms
 
-Things you may want to cover:
+## Built With
 
-* Ruby version
+- Ruby 3.0.0
+- Rails 6.1.3
+- SQLite3
+- VSCode
 
-* System dependencies
+## Getting Started
+To get a local copy up and running follow these simple example steps.
 
-* Configuration
+### Prerequisites
 
-* Database creation
+- Ruby
+- Rails
 
-* Database initialization
+### Setup
 
-* How to run the test suite
+- Open terminal
+- Run "git clone https://github.com/apricot12/re-former.git"
+- cd into re-former
+- run "bundle install" to get all required gems
+- run "rails console" to get the app running.
 
-* Services (job queues, cache servers, search engines, etc.)
+## Authors
 
-* Deployment instructions
+👤 **Author1**
 
-* ...
+- GitHub: [@apricot12](https://github.com/apricot12)
+- Twitter: [@apricotfoxtrot](https://twitter.com/apricotfoxtrot)
+- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Hat tip to anyone whose code was used
+- Inspiration
+- etc
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
